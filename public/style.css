@@ -1,0 +1,147 @@
+body{
+    background-color:rgb(223, 219, 219);
+
+}
+header{
+    background-image: url('/Blog-Header.jpg');
+    height: 150px;
+    padding-top: 30px;
+}
+h1,h2{
+    text-align: center;
+    color:rgb(49, 49, 49);
+    margin-top:10px; 
+
+
+}
+
+h3{
+    margin:10px; 
+}
+h4{
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: #3854f3;
+}
+.question{
+    margin:auto; 
+    border: none;
+    background-color:rgb(119, 60, 60);
+    color: rgb(37, 34, 34);
+    width: 90%;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px rgba(128, 128, 128, 0.678);
+
+}
+.answer{
+    margin:auto; 
+    border: none;
+    margin-top: 30px;
+    background-color:rgb(131, 52, 52);
+    width:75%;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px rgba(128, 128, 128, 0.678);
+
+
+
+}
+.answer::after {
+	content: "";
+	position: absolute;
+	height: 25px;
+	width: 25px;
+	top: -25px;
+	left: 5%;
+	background-color:whitesmoke;
+	clip-path: polygon(100% 100%, 0 100%,0 0);
+}
+
+.space{
+    margin: 20px;
+    text-align: center;
+}
+.card-text{
+    letter-spacing: 1px;
+    margin:10px;
+}
+.content{
+    padding: 20px;
+}
+.warning{
+    background-color: rgb(179, 71, 125);
+    color: rgb(14, 13, 13);
+    padding: 5px 15px;
+    display: inline-block;
+    margin: 5px;
+    box-shadow: 2px 2px 5px 2px rgba(58, 58, 58, 0.4);
+}
+.navbar{
+    background-color:rgba(65, 61, 61, 0.678);
+    margin-bottom:20px; 
+ 
+
+}
+.nav-link{
+    font-weight: bold;
+
+}
+.col-12{
+    margin:20px; 
+    width: 75%;
+}
+.col-11{
+    margin:20px; 
+    width: 15%;
+}
+.login{
+    width: 40%;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+    background-color:rgb(117, 72, 72);
+    border-radius: 5px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px rgba(128, 128, 128, 0.678);
+
+}
+.signup{
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+    background-color:rgb(117, 72, 72);
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px rgba(128, 128, 128, 0.678);
+
+}
+.edit{
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    align-self: center;
+    background-color:rgb(117, 72, 72);
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px rgba(128, 128, 128, 0.678);
+}
+.btn{
+    border-radius: 5px;
+    border: none;
+    box-shadow: 10px 5px 5px rgba(128, 128, 128, 0.678);
+    background-color: white;
+    color: black;
+
+}
+.btn:hover{
+    background-color: rgba(199, 197, 197, 0.678);
+}
+.btn:focus{
+    outline: none !important;
+}
+.comment{
+    margin: auto;
+    width: 90%;
+
+}
